@@ -1,0 +1,55 @@
+@import url("https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap");
+
+.header {
+  display: flex;
+  justify-content: space-between;
+}
+.toggle {
+  padding-top: 20px;
+  padding-right: 10px;
+}
+.redPara {
+  color: rgb(255, 0, 0);
+}
+.p-align {
+  font-size: 1.4rem;
+}
+
+.title {
+  display: flex;
+  font-family: "Fredoka One", cursive;
+  font-size: 20px;
+}
+
+.title span {
+  color: rgb(230, 11, 11);
+}
+
+.logo img {
+  height: 124px;
+}
+
+.cardImg {
+  position: relative;
+  margin-left: 130px;
+}
+.benifitCardImg {
+  position: relative;
+  margin-left: 74px;
+}
+.benifitCardDiv {
+  display: grid;
+  grid-template-columns: auto auto auto;
+  grid-gap: 50px;
+  margin-left: 10%;
+}
+
+.cardDiv {
+  display: flex;
+  justify-content: space-around;
+}
+
+.titleCenter {
+  display: flex;
+  justify-content: center;
+}
